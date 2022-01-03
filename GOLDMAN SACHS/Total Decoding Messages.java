@@ -1,6 +1,5 @@
 class Solution {
     public int numDecodings(String s) {
-        //public int numDecodings(String s) {
     int[] dp = new int[s.length() + 1];
     dp[0] = 1;
     if (s.charAt(0) == '0') {
